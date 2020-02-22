@@ -9,7 +9,7 @@ class CalcButtonComponent extends Component {
         className={`calc-input ${this.props.additionalClass}`} 
         onClick={() => this.props.updateCalculation(this.props.value, this.props.calculation, this.props.result)}>
         {this.props.htmlCode ? String.fromCharCode(this.props.htmlCode) : this.props.value}
-      </button>
+      </button
     );
   }
 }
